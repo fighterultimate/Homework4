@@ -1,0 +1,22 @@
+body {
+    background-image: url("file:///C:/Users/Carlos/Documents/homework4/assets/images/thumb-1920-444562.jpg");
+    
+}
+#header {
+    background-color:rgb(91,54,157); opacity: 0.8;
+    max-width: 100%;
+}
+#text {
+    height: 450px;
+    background-color:rgb(81,63,188);
+    font-size: 20px;
+    
+}
+.container {
+margin-bottom: 15px;
+margin-top: 15px;;
+}
+h1 {
+    font-size: 1.8rem;
+    color:whitesmoke;
+}
