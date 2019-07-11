@@ -1,93 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
-
 <body>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-2" id="header">
-                <h1>CRYSTAL COLLECTOR!</h1>
-            </div>
+    
+<div class="container">
+    <div class="row" >
+        <div class="col-2" id="header">
+        <h1 >CRYSTAL COLLECTOR!</h1>
         </div>
     </div>
-    <h2></h2>
-    <div class="container">
-        <div class="row">
+</div>
+<h2></h2>
+<div class="container">
+        <div class="row" >
             <div class="col-6" id="text">
                 <br>
-                <p>You will be given random number at the start of the game</p>
-                <p>There are four crystlas below.By clicking on a crystal you will add a specific amount of points to
-                    your total score</p>
-                <p>You win the game by matching your total score to a random number, you lose the game if your total
-                    score goes above the random number.</p>
-                <p>The value of each crystal id hidden from you until you click on it</p>
-                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            <p>You will be given random number at the start of the game</p>
+            <p>There are four crystlas below.By clicking on a crystal you will add a specific amount of points to your total score</p>      
+            <p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal id hidden from you until you click on it</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
             </div>
         </div>
     </div>
-
+    
     <div class="container">
-        <div class="row">
-            <div class="col-2" id="randomBox">
-
-            </div>
-            <div class="col-2" id="scoreKeeper">
-                <p id="wins"> WINS: 0 </p>
-                <br>
-                <br>
-                <br>
-                <p id="losses"> LOSES: 0</p>
+            <div class="row" >
+                <div class="col-2" id="randomBox">
+                
+                </div>
+                <div class="col-2" id="scoreKeeper">
+                        <p id="wins"> WINS: 0 </p> 
+                        <br>
+                        <br>
+                        <br>
+                    <p id="losses"> LOSES: 0</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-2 gems" id="greenGemBox">
+        <div class="container">
+            <div class="row" >
+                <div class="col-2 gems" id="greenGemBox">
                 <img src="assets/images/peridot-655-4lcs-2112W_800x.jpg" height="100%" width="100%" />
-            </div>
-            <div class="col-2 gems" id="shinyGemBox">
-                <img src="assets/images/2bca5b5b0babca605168c06c89e95626.jpg" height="100%" width="100%" />
+                </div>
+                <div class="col-2 gems" id="shinyGemBox">
+                    <img src="assets/images/2bca5b5b0babca605168c06c89e95626.jpg" height="100%" width="100%"/>
 
-            </div>
-            <div class="col-2 gems" id="redGemBox">
-                <img src="assets/images/ga1447-n.jpg" height="100%" width="100%" />
+                </div>
+                <div class="col-2 gems" id="redGemBox">
+                    <img src="assets/images/ga1447-n.jpg" height="100%" width="100%"/>
 
-            </div>
-            <div class="col-2 gems" id="purpleGemBox">
-                <img src="assets/images/tanzanite-round-828W_800x.jpg" height="100%" width="100%" />
+                </div>
+                <div class="col-2 gems" id="purpleGemBox">
+                    <img src="assets/images/tanzanite-round-828W_800x.jpg" height="100%" width="100%"/>
 
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-4" id="display">
+        <div class="container">
+            <div class="row" >
+                <div class="col-4" id="display">
                 YOUR TOTAL SCORE IS:
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-4" id="scorebox">
-                0
+        <div class="container">
+            <div class="row" >
+                <div class="col-4" id="scorebox">
+            0
+                </div>
             </div>
         </div>
-    </div>
 
 
 
@@ -127,7 +122,7 @@
 
 
 
-    <!--
+<!--
     <div class="container">
         <div class="row" >
             <div class="col">
@@ -140,18 +135,11 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="assets/javascript/game.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
 </body>
-
 </html>
